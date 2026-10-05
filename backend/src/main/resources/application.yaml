@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${HOST_NAME:pgsql}:5432/${DATABASE_NAME:hyoussouf}
+    username: ${DATABASE_USERNAME:hyoussouf}
+    password: ${DATABASE_PASSWORD:99962002fF$}
